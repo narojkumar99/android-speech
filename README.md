@@ -37,7 +37,7 @@ Logger.setLogLevel(LogLevel.DEBUG);
 ```
 wherever you want in your code. You can adjust the level of detail from DEBUG to OFF.
 
-The library logger uses `android.util.Log` by default, so you will get the output in `LogCat`. If you want to redirect logs to different output or use a different logger, you can provide your own delegate implementation like this:
+The library logger use `android.util.Log` by default, so you will get the output in `LogCat`. If you want to redirect logs to different output or use a different logger, you can provide your own delegate implementation like this:
 ```java
 Logger.setLoggerDelegate(new Logger.LoggerDelegate() {
     @Override
